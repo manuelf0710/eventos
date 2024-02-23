@@ -5,7 +5,7 @@ import { ConfigModule } from '../config/config.module';
 import { ConfigService } from '../config/config.service';
 import { Configuration } from './../config/configuration.keys';
 import * as dotenv from 'dotenv';
-const globalVars = dotenv.config();
+//const globalVars = dotenv.config();
 
 export const databaseProviders = [
   TypeOrmModule.forRootAsync({
